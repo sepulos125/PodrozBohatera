@@ -1,0 +1,25 @@
+#content3 {
+  background-attachment: fixed;
+  height: auto;
+  background-image: linear-gradient(to right bottom,
+  rgba(63, 57, 38, 0.8),
+  rgba(172, 150, 83, 0.8)),
+  url(../../assets/if-u-are/arrow.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 70px;
+  padding-top: 35px;
+  clip-path: polygon(100% 0, 0 40px, 0 100%, 100% 92%);
+  margin-bottom: 20px;
+}
+
+
+
+.list__item {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 34px;
+  font-weight: bold;
+}

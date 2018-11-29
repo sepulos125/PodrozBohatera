@@ -1,0 +1,36 @@
+.fb-toggle{
+  position: fixed;
+  top: calc(25% - 40px);
+  right: 0;
+  z-index: 99;
+  color: #4267b2;
+  width: 40px;
+  cursor: pointer;
+}
+
+.fb-toggle:hover{
+  transform: scale(1.2);
+}
+
+.fb-position{
+  position: fixed !important;
+  top: 25%;
+  right: 0;
+  z-index: 99;
+  height: 50vh;
+  width: auto;
+  overflow: hidden;
+  display: block;
+}
+
+@media (max-width: 400px){
+  .fb-position{
+    width: 100%;
+    height: auto;
+  }
+
+  .rfloat{
+    margin-right: 24px !important;
+  }
+}
+

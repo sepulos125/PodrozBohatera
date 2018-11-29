@@ -1,0 +1,17 @@
+#content-game1{
+  text-align: center;
+  height: auto;
+  background-image:
+    linear-gradient(to right bottom,
+    rgba(20, 20, 20, 0.6),
+    rgba(172, 150, 83, 0.6)),
+    url('../../assets/about-min/k5.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 35px 0 70px;
+  position: relative;
+  clip-path: polygon(95% 0, 0 40px, 0 100%, 100% 89%);
+}

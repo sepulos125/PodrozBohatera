@@ -1,0 +1,24 @@
+#content-game3{
+  height: auto;
+  margin-bottom: 24px;
+  background-image:
+    linear-gradient(to right bottom,
+    rgba(20, 20, 20, 0.6),
+    rgba(172, 150, 83, 0.6)),
+    url('../../assets/who-min/k1.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  padding: 35px 0 70px;
+  clip-path: polygon(0% 1%, 96% 6%, 100% 97%, 0 100%);
+}
+
+.icon__img{
+  width:auto;
+  height:auto;
+  text-align: center;
+  margin-top:50px;
+}

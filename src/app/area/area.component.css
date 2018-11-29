@@ -1,0 +1,23 @@
+#content-game1{
+  height: auto;
+  background-image:
+    linear-gradient(to right bottom,
+    rgba(20, 20, 20, 0.6),
+    rgba(172, 150, 83, 0.6)),
+    url('../../assets/about-max/k2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  padding: 35px 0 100px;
+  position: relative;
+  clip-path: polygon(0 6%, 100% 0, 100% 93%, 3% 98%);
+}
+
+.icon__img{
+  width:auto;
+  height:auto;
+  text-align: center;
+  margin-top:50px;
+}

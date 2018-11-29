@@ -1,0 +1,31 @@
+#icon-content{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.title{
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  display: block;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.7;
+  color: black;
+  border-bottom: dashed 2px #79703F;
+  border-width: 30%;
+  margin-bottom: 40px;
+}
+
+.icon-text{
+  color: black;
+  text-transform: uppercase;
+}
+
+
+.text-black{
+  color: black;
+}
+
+.icon{
+  color: black;
+}
